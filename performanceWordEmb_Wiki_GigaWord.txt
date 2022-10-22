@@ -1,0 +1,42 @@
+ The following is the information for the Base MLP Classifier 
+   This is the Accuracy of the Tests for the emotion model 
+ 16.83738796414853 
+   This is the Accuracy of the Tests for the sentiment model 
+ 51.28331975323013 
+   This is the Classification Report for the emotion model 
+                 precision    recall  f1-score   support
+
+    admiration       0.46      0.38      0.42      2090
+     amusement       0.52      0.29      0.37      1229
+         anger       0.31      0.13      0.19      1009
+     annoyance       0.23      0.04      0.07      1652
+      approval       0.32      0.03      0.06      2257
+        caring       0.27      0.06      0.10       709
+     confusion       0.26      0.04      0.06       920
+     curiosity       0.37      0.23      0.28      1213
+        desire       0.52      0.14      0.22       448
+disappointment       0.21      0.02      0.04       963
+   disapproval       0.25      0.03      0.05      1517
+       disgust       0.34      0.11      0.16       616
+ embarrassment       0.45      0.05      0.10       314
+    excitement       0.43      0.07      0.12       626
+          fear       0.44      0.32      0.37       371
+     gratitude       0.55      0.48      0.51      1405
+         grief       0.19      0.05      0.08        62
+           joy       0.33      0.13      0.19       894
+          love       0.47      0.53      0.50       986
+   nervousness       0.33      0.02      0.04       175
+       neutral       0.37      0.86      0.52     10952
+      optimism       0.41      0.14      0.21       936
+         pride       0.71      0.04      0.07       132
+   realization       0.50      0.00      0.00       979
+        relief       0.50      0.01      0.01       162
+       remorse       0.38      0.23      0.29       295
+       sadness       0.39      0.16      0.23       766
+      surprise       0.38      0.04      0.07       686
+
+      accuracy                           0.39     34364
+     macro avg       0.39      0.17      0.19     34364
+  weighted avg       0.38      0.39      0.30     34364
+ 
+  
