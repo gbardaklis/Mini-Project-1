@@ -1,0 +1,54 @@
+ The following is the information for the Base MLP Classifier 
+   This is the Accuracy of the Tests for the emotion model 
+ 15.475497613781863 
+   This is the Accuracy of the Tests for the sentiment model 
+ 54.61238505412641 
+   This is the Classification Report for the emotion model 
+                 precision    recall  f1-score   support
+
+    admiration       0.45      0.43      0.44      2078
+     amusement       0.48      0.52      0.50      1185
+         anger       0.37      0.21      0.27      1032
+     annoyance       0.19      0.03      0.05      1690
+      approval       0.41      0.05      0.09      2246
+        caring       0.45      0.12      0.19       705
+     confusion       0.36      0.07      0.12      1002
+     curiosity       0.34      0.26      0.29      1155
+        desire       0.40      0.17      0.24       415
+disappointment       0.12      0.01      0.02       940
+   disapproval       0.24      0.06      0.10      1525
+       disgust       0.35      0.12      0.18       617
+ embarrassment       0.14      0.00      0.01       298
+    excitement       0.33      0.08      0.13       586
+          fear       0.39      0.20      0.27       341
+     gratitude       0.75      0.74      0.75      1478
+         grief       0.08      0.01      0.02        83
+           joy       0.36      0.19      0.25       839
+          love       0.55      0.61      0.57       969
+   nervousness       0.58      0.04      0.08       173
+       neutral       0.40      0.83      0.54     11140
+      optimism       0.43      0.24      0.31       912
+         pride       0.25      0.01      0.02       122
+   realization       0.00      0.00      0.00       892
+        relief       0.33      0.01      0.01       148
+       remorse       0.41      0.28      0.33       308
+       sadness       0.30      0.22      0.25       766
+      surprise       0.38      0.12      0.19       719
+
+      accuracy                           0.42     34364
+     macro avg       0.35      0.20      0.22     34364
+  weighted avg       0.38      0.42      0.34     34364
+ 
+   This is the Classification Report for the sentiment model 
+               precision    recall  f1-score   support
+
+   ambiguous       0.00      0.00      0.00      3768
+    negative       0.00      0.00      0.00      7773
+     neutral       0.42      0.00      0.00     11140
+    positive       0.34      1.00      0.51     11683
+
+    accuracy                           0.34     34364
+   macro avg       0.19      0.25      0.13     34364
+weighted avg       0.25      0.34      0.17     34364
+ 
+  
