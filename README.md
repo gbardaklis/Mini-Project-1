@@ -51,4 +51,4 @@ https://github.com/gbardaklis/Mini-Project-1
 - make sure to load `glove-wiki-gigaword-300` model using `gensim.downloader.load`
 - Run remaining cells in order
 - The last cell will create and write to a file called `performanceWordEmb_Wiki_GigaWord.txt` using the best performing model Base-MLP
-- Repeat the same steps for `Q3Embeddings_as_Features_Wiki_News_Model.ipynb` ensuring to load `fasttext-wiki-news-subwords-30` model using `gensim.downloader.load`
+- Repeat the same steps for `Q3Embeddings_as_Features_Wiki_News_Model.ipynb` ensuring to load `fasttext-wiki-news-subwords-300` model using `gensim.downloader.load`
