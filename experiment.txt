@@ -1,0 +1,28 @@
+Emotion Base-MNB MultinomialNB()
+Sentiment Base-MNB MultinomialNB()
+Emotion Base-DT DecisionTreeClassifier()
+Sentiment Base-DT DecisionTreeClassifier()
+Emotion Base-MLP MLPClassifier(early_stopping=True, max_iter=15)
+Sentiment Base-MLP MLPClassifier(early_stopping=True, max_iter=15)
+Emotion Top-MNB GridSearchCV(estimator=MultinomialNB(),
+             param_grid={'alpha': [0.5, 0, 1.0, 1.5]})
+Sentiment Top-MNB GridSearchCV(estimator=MultinomialNB(),
+             param_grid={'alpha': [0.5, 0, 1.0, 1.5]})
+Emotion Top-DT GridSearchCV(estimator=DecisionTreeClassifier(),
+             param_grid={'criterion': ['gini', 'entropy'],
+                         'max_depth': [18, 36],
+                         'min_samples_split': [3, 6, 9]})
+Sentiment Top-DT GridSearchCV(estimator=DecisionTreeClassifier(),
+             param_grid={'criterion': ['gini', 'entropy'],
+                         'max_depth': [18, 36],
+                         'min_samples_split': [3, 6, 9]})
+Emotion Top-MLP GridSearchCV(estimator=MLPClassifier(early_stopping=True, max_iter=1,
+                                     verbose=True),
+             param_grid={'activation': ['logistic', 'tanh', 'relu', 'identity'],
+                         'hidden_layer_sizes': [(10, 30, 10), (50, 30)],
+                         'solver': ['adam', 'sgd']})
+Sentiment Top-MLP GridSearchCV(estimator=MLPClassifier(early_stopping=True, max_iter=1,
+                                     verbose=True),
+             param_grid={'activation': ['logistic', 'tanh', 'relu', 'identity'],
+                         'hidden_layer_sizes': [(10, 30, 10), (50, 30)],
+                         'solver': ['adam', 'sgd']})
